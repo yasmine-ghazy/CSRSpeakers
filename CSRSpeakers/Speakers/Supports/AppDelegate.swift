@@ -16,6 +16,44 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        window = UIWindow(frame: UIScreen.main.bounds)
+        
+        let tabBarController = UITabBarController()
+        
+        let speakersVC = SpeakersVC()
+        speakersVC.title = "Speakers"
+        speakersVC.view.backgroundColor = UIColor.orange
+        
+        let chatVC = SpeakersVC()
+        chatVC.title = "Chat"
+        chatVC.view.backgroundColor = UIColor.blue
+        
+        let homeVC = SpeakersVC()
+        homeVC.title = "Home"
+        homeVC.view.backgroundColor = UIColor.cyan
+        
+        let scheduleVC = SpeakersVC()
+        scheduleVC.title = "Schedule"
+        scheduleVC.view.backgroundColor = UIColor.blue
+        
+        let sponsorsVC = SpeakersVC()
+        sponsorsVC.title = "Sponsors"
+        sponsorsVC.view.backgroundColor = UIColor.cyan
+        
+        
+        
+        speakersVC.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 0)
+        chatVC.tabBarItem = UITabBarItem(tabBarSystemItem: .downloads, tag: 1)
+        homeVC.tabBarItem = UITabBarItem(tabBarSystemItem: .history, tag: 2)
+        scheduleVC.tabBarItem = UITabBarItem(tabBarSystemItem: ., tag: 3)
+        sponsorsVC.tabBarItem = UITabBarItem(tabBarSystemItem: .sponsors, tag: 4)
+        
+        let controllers = [speakersVC, chatVC, homeVC, scheduleVC, sponsorsVC]
+        
+        tabBarController.viewControllers = controllers.map { UINavigationController(rootViewController: $0)}
+        
+        window?.rootViewController = tabBarController
+        window?.makeKeyAndVisible()
         return true
     }
 

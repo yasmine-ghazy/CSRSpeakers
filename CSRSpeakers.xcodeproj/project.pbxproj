@@ -7,21 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		184267CC21185B9D00583F1A /* BaseLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184267CB21185B9D00583F1A /* BaseLayout.swift */; };
+		184267CE211866C500583F1A /* SpeakerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184267CD211866C500583F1A /* SpeakerCell.swift */; };
+		184267D021187C9A00583F1A /* HomeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184267CF21187C9A00583F1A /* HomeService.swift */; };
+		184267D32118844B00583F1A /* SpeakersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184267D12118844B00583F1A /* SpeakersResponse.swift */; };
+		184267D42118844B00583F1A /* SpeakerEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184267D22118844B00583F1A /* SpeakerEntity.swift */; };
+		184267D8211891C000583F1A /* HomeGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184267D7211891C000583F1A /* HomeGateway.swift */; };
+		185470852119AE0100590024 /* MainTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185470842119AE0100590024 /* MainTabBarVC.swift */; };
+		186BADA321174A53006D6044 /* SpeakersPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186BADA221174A53006D6044 /* SpeakersPresenter.swift */; };
+		186BADA521174AFC006D6044 /* SpeakersLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186BADA421174AFC006D6044 /* SpeakersLayout.swift */; };
 		188878732117456A00AC5A4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188878722117456A00AC5A4C /* AppDelegate.swift */; };
-		188878752117456A00AC5A4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188878742117456A00AC5A4C /* ViewController.swift */; };
-		188878782117456A00AC5A4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188878762117456A00AC5A4C /* Main.storyboard */; };
+		188878752117456A00AC5A4C /* SpeakersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188878742117456A00AC5A4C /* SpeakersVC.swift */; };
 		1888787A2117456C00AC5A4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188878792117456C00AC5A4C /* Assets.xcassets */; };
 		1888787D2117456C00AC5A4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1888787B2117456C00AC5A4C /* LaunchScreen.storyboard */; };
+		18E390992118AB0E003D0A33 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1888787E2117456C00AC5A4C /* Info.plist */; };
+		E689E7470F3AD75CBFEA1D2C /* Pods_CSRSpeakers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C093C1140D2823751C2CF14 /* Pods_CSRSpeakers.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		066D3795252703252D76D3B2 /* Pods-CSRSpeakers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSRSpeakers.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CSRSpeakers/Pods-CSRSpeakers.debug.xcconfig"; sourceTree = "<group>"; };
+		184267CB21185B9D00583F1A /* BaseLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseLayout.swift; sourceTree = "<group>"; };
+		184267CD211866C500583F1A /* SpeakerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerCell.swift; sourceTree = "<group>"; };
+		184267CF21187C9A00583F1A /* HomeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeService.swift; sourceTree = "<group>"; };
+		184267D12118844B00583F1A /* SpeakersResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeakersResponse.swift; sourceTree = "<group>"; };
+		184267D22118844B00583F1A /* SpeakerEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeakerEntity.swift; sourceTree = "<group>"; };
+		184267D7211891C000583F1A /* HomeGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeGateway.swift; sourceTree = "<group>"; };
+		185470842119AE0100590024 /* MainTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarVC.swift; sourceTree = "<group>"; };
+		186BADA221174A53006D6044 /* SpeakersPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakersPresenter.swift; sourceTree = "<group>"; };
+		186BADA421174AFC006D6044 /* SpeakersLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakersLayout.swift; sourceTree = "<group>"; };
 		1888786F2117456A00AC5A4C /* CSRSpeakers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSRSpeakers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		188878722117456A00AC5A4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		188878742117456A00AC5A4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		188878772117456A00AC5A4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		188878742117456A00AC5A4C /* SpeakersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakersVC.swift; sourceTree = "<group>"; };
 		188878792117456C00AC5A4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1888787C2117456C00AC5A4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1888787E2117456C00AC5A4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C093C1140D2823751C2CF14 /* Pods_CSRSpeakers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CSRSpeakers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF021AB0AA7F5FE1931AC829 /* Pods-CSRSpeakers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSRSpeakers.release.xcconfig"; path = "Pods/Target Support Files/Pods-CSRSpeakers/Pods-CSRSpeakers.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +50,78 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E689E7470F3AD75CBFEA1D2C /* Pods_CSRSpeakers.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		184267D9211891C800583F1A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				188878742117456A00AC5A4C /* SpeakersVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		184267DA211891D400583F1A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				184267CB21185B9D00583F1A /* BaseLayout.swift */,
+				184267CD211866C500583F1A /* SpeakerCell.swift */,
+				186BADA421174AFC006D6044 /* SpeakersLayout.swift */,
+				185470842119AE0100590024 /* MainTabBarVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		184267DB211891EA00583F1A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				184267D12118844B00583F1A /* SpeakersResponse.swift */,
+				184267D22118844B00583F1A /* SpeakerEntity.swift */,
+				186BADA221174A53006D6044 /* SpeakersPresenter.swift */,
+				184267D7211891C000583F1A /* HomeGateway.swift */,
+				184267CF21187C9A00583F1A /* HomeService.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		186BAD9F211749CD006D6044 /* Speakers */ = {
+			isa = PBXGroup;
+			children = (
+				184267D9211891C800583F1A /* Controller */,
+				184267DA211891D400583F1A /* View */,
+				186BADA121174A06006D6044 /* Supports */,
+			);
+			path = Speakers;
+			sourceTree = "<group>";
+		};
+		186BADA0211749E8006D6044 /* SpeakerDetails */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SpeakerDetails;
+			sourceTree = "<group>";
+		};
+		186BADA121174A06006D6044 /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				188878722117456A00AC5A4C /* AppDelegate.swift */,
+				188878792117456C00AC5A4C /* Assets.xcassets */,
+				1888787B2117456C00AC5A4C /* LaunchScreen.storyboard */,
+			);
+			path = Supports;
+			sourceTree = "<group>";
+		};
 		188878662117456A00AC5A4C = {
 			isa = PBXGroup;
 			children = (
 				188878712117456A00AC5A4C /* CSRSpeakers */,
 				188878702117456A00AC5A4C /* Products */,
+				48CB4FD1EF89ACF439FBD9A9 /* Pods */,
+				E4B597330FE7B50D6F9B3C30 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +136,29 @@
 		188878712117456A00AC5A4C /* CSRSpeakers */ = {
 			isa = PBXGroup;
 			children = (
-				188878722117456A00AC5A4C /* AppDelegate.swift */,
-				188878742117456A00AC5A4C /* ViewController.swift */,
-				188878762117456A00AC5A4C /* Main.storyboard */,
-				188878792117456C00AC5A4C /* Assets.xcassets */,
-				1888787B2117456C00AC5A4C /* LaunchScreen.storyboard */,
 				1888787E2117456C00AC5A4C /* Info.plist */,
+				184267DB211891EA00583F1A /* Model */,
+				186BADA0211749E8006D6044 /* SpeakerDetails */,
+				186BAD9F211749CD006D6044 /* Speakers */,
 			);
 			path = CSRSpeakers;
+			sourceTree = "<group>";
+		};
+		48CB4FD1EF89ACF439FBD9A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				066D3795252703252D76D3B2 /* Pods-CSRSpeakers.debug.xcconfig */,
+				CF021AB0AA7F5FE1931AC829 /* Pods-CSRSpeakers.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E4B597330FE7B50D6F9B3C30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C093C1140D2823751C2CF14 /* Pods_CSRSpeakers.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +168,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 188878812117456C00AC5A4C /* Build configuration list for PBXNativeTarget "CSRSpeakers" */;
 			buildPhases = (
+				073BEABCD4F0A4D0382389A7 /* [CP] Check Pods Manifest.lock */,
 				1888786B2117456A00AC5A4C /* Sources */,
 				1888786C2117456A00AC5A4C /* Frameworks */,
 				1888786D2117456A00AC5A4C /* Resources */,
+				066F11ACAAC4E01856639A4D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -92,7 +191,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
-				ORGANIZATIONNAME = Hesham;
+				ORGANIZATIONNAME = "Yasmine Ghazy";
 				TargetAttributes = {
 					1888786E2117456A00AC5A4C = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -122,35 +221,95 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18E390992118AB0E003D0A33 /* Info.plist in Resources */,
 				1888787D2117456C00AC5A4C /* LaunchScreen.storyboard in Resources */,
 				1888787A2117456C00AC5A4C /* Assets.xcassets in Resources */,
-				188878782117456A00AC5A4C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		066F11ACAAC4E01856639A4D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CSRSpeakers/Pods-CSRSpeakers-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Gloss/Gloss.framework",
+				"${BUILT_PRODUCTS_DIR}/Localize-Swift/Localize_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/Material/Material.framework",
+				"${BUILT_PRODUCTS_DIR}/Motion/Motion.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya-Gloss/Moya_Gloss.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Gloss.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Localize_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Material.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Motion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya_Gloss.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CSRSpeakers/Pods-CSRSpeakers-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		073BEABCD4F0A4D0382389A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CSRSpeakers-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1888786B2117456A00AC5A4C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				188878752117456A00AC5A4C /* ViewController.swift in Sources */,
+				184267CE211866C500583F1A /* SpeakerCell.swift in Sources */,
+				184267D42118844B00583F1A /* SpeakerEntity.swift in Sources */,
+				186BADA321174A53006D6044 /* SpeakersPresenter.swift in Sources */,
+				188878752117456A00AC5A4C /* SpeakersVC.swift in Sources */,
+				184267D32118844B00583F1A /* SpeakersResponse.swift in Sources */,
+				184267D8211891C000583F1A /* HomeGateway.swift in Sources */,
 				188878732117456A00AC5A4C /* AppDelegate.swift in Sources */,
+				184267CC21185B9D00583F1A /* BaseLayout.swift in Sources */,
+				185470852119AE0100590024 /* MainTabBarVC.swift in Sources */,
+				184267D021187C9A00583F1A /* HomeService.swift in Sources */,
+				186BADA521174AFC006D6044 /* SpeakersLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		188878762117456A00AC5A4C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				188878772117456A00AC5A4C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1888787B2117456C00AC5A4C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -278,9 +437,11 @@
 		};
 		188878822117456C00AC5A4C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 066D3795252703252D76D3B2 /* Pods-CSRSpeakers.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CSRSpeakers/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -288,6 +449,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Code95.CSRSpeakers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -295,9 +457,11 @@
 		};
 		188878832117456C00AC5A4C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF021AB0AA7F5FE1931AC829 /* Pods-CSRSpeakers.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CSRSpeakers/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,6 +469,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Code95.CSRSpeakers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
